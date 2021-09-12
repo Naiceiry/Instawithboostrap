@@ -1,0 +1,92 @@
+
+body{
+    width:100%;
+    margin:0px auto;
+}
+.navbar{
+   
+    width: 100%;
+}
+.collapsecontent{
+    width: 60%;
+    text-align:right; 
+    
+}
+.btn{
+    width: 60px;
+   
+}
+.btns{
+    margin-left: 2%;
+    background-color: #f3f3f300;
+    width: 5%;
+    color: -internal-light-dark(black, rgb(182, 41, 41));
+  }
+.buttonsdiv{
+    display: flex;
+    width: 80%; 
+    margin-left: 38%;
+  }
+.list{
+    background-color: gray;
+    width:1800px; 
+    margin:20px auto;
+  }
+.photoslist{
+    display: flex; 
+    width: 80%; 
+    margin-left: 18%;
+    margin-top: 0%
+ }
+.photocoment{
+    font-family:courier,arial,helvética;
+    font-size: 2px;
+    background-color: white;
+    width: 60%;  
+    margin-top: 0%; 
+    border: 0%;
+    padding: 0%;
+ }
+ .up{
+   text-align:left; 
+   width: 30%;
+   padding-left: 0%; 
+   background-color: white
+
+ }
+ .upr{
+    text-align:right; 
+    width: 30%;
+    padding-left: 0%; 
+    background-color: white
+ }
+ .imagen1{
+    width: 78.5%
+ }
+ .imagen2{
+    width: 75.8%
+ }
+ .imagen3{
+    width: 101.5%
+ }
+ .separator{
+    width: 100%;  
+    margin-top: 4%;
+    border: 0%;
+    padding: 0%;
+ }
+ .container{
+    background-color: gray;
+    width:200%; 
+    margin:1%;
+    text-align:right; 
+ }
+ .imagengrid{
+     width: 25rem;
+     height: 25rem;
+     margin: 2%;
+ }
+ .row{
+     width: 140%;
+     background-color: gray;
+ }
