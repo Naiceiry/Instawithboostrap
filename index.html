@@ -10,26 +10,39 @@
     
     <body >
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="img/instagram.png"/>
-
-        
+       <div> <img src="img/instagram.png"/></div>
         <div class="collapsecontent">
-            <form class="form my-2 my-lg-0">
-                <button class="btnc btn-outline-success my-2 my-sm-0"  type="submit">Create a New Post</button>
-            </form>
-         
-                <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img style="width: 10px;" src="img/tu.png" /> 
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                <div>
+                    <input type="checkbox" id="btn-modal">
+                    <label for="btn-modal" class="lbl-modal">Create New Post</label>
+                    <div class="modal">
+                        <div class="content">
+                            <header> Mi Modal</header>
+                            <label for="btn-modal">X</label>
+                                <div>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <div class="imgmodaldiv">
+                                        <img class="imagenModal" src="img/cam.jpg"/><img class="imagenModal" src="img/ubic.png"/>
+                                    </div>
+                                    <div >
+                                        <button class="btnc btn-outline-success my-2 my-sm-0"  href="modal.html" type="submit">CANCEL</button>
+                                        <button class="btnc btn-outline-success my-2 my-sm-0"  href="modal.html" type="submit">PUBLISH</button>
+                                    </div>
+                                </div>
+                           
+                        </div>
+                    </div>
                 </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img style="width: 10px;" src="img/tu.png" /> 
+                    </button>
+                    
                 </div>
         </div>
     </nav>
+ 
+    <br>
     <div class="buttonsdiv">
         <a class="btns" href="grid.html"><img class="imagen1"
             src="img/grid.png"
@@ -37,6 +50,14 @@
         <a class="btns" href="index.html"><img class="imagen1"
             src="img/cuadro.png"
         /> </a>
+    </div>
+    <div class="dropdown-menu">
+        <span>Ayuda</span>
+        <ul class="nav">
+            <li>Action</li>
+            <li>Another action</li>
+            <li>Something else here</li>
+        </ul>
     </div>
     <div class="list">
             <div class="separator">
@@ -63,8 +84,8 @@
                         </div>
                     </div>  
             </div>
-
-
+ 
+ 
             <div class="separator">
                 <div class="photoslist"  >
                     <div class="up" >
@@ -89,7 +110,7 @@
                         <h3>  <b>#breathecode</b> </h3>   
                     </div>
                 </div>  
-
+ 
                 <div  class="separator" style="margin-bottom: 2%;">
                     <div class="photoslist" >
                         <div class="up"  >
