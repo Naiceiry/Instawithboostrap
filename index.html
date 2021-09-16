@@ -5,8 +5,14 @@
         <meta charset="UTF-8">
         <title>Insta With Boostrap</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    </head>    
+        <script src="js/jquery.min.js"></script>
+         <script src="js/bootstrap.min.js"></script>
+
+     
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+ </head>    
     
     <body >
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -35,10 +41,18 @@
                 </div>
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img style="width: 10px;" src="img/tu.png" /> 
+                        <img class="imagenTu" src="img/tu.png"/>
                     </button>
-                    
-                </div>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                
+                
+
+
         </div>
     </nav>
  
@@ -51,14 +65,7 @@
             src="img/cuadro.png"
         /> </a>
     </div>
-    <div class="dropdown-menu">
-        <span>Ayuda</span>
-        <ul class="nav">
-            <li>Action</li>
-            <li>Another action</li>
-            <li>Something else here</li>
-        </ul>
-    </div>
+    
     <div class="list">
             <div class="separator">
                     <div class="photoslist"  >
